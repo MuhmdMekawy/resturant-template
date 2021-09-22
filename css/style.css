@@ -1,0 +1,299 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto,sans-serif;
+    height: auto;
+}
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-sm
+, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl
+, .navbar > .container-xxl
+{
+    background-color: #fcc133;
+    margin-top: -8px;
+    padding-top: 10px;
+    margin-bottom: -8px;
+    padding-bottom: 8px;
+}
+.header .content {
+    display: grid;
+    grid-template-columns: 42.5% 15% 42.5%;
+}
+.header .content img{
+    width: 100%;
+
+}
+.header .content .middle{
+    background-color: #fcc133;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+.header .content .middle pre{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+/* end header */
+/* section_one */
+.section_one {
+    background-color: #333;
+    color: white;
+}
+.section_one .container .content{
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    padding-top: 75px;
+    padding-bottom: 60px;
+}
+.section_one .container .left{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.section_one .container .left h3{
+    font-size: 47px;
+    font-weight: 800;
+}
+.section_one .container .middle{
+    text-align: center;
+}
+.section_one .container img{
+    width: 60%;
+    margin-bottom: 52px;
+}
+.section_one .container .right{
+    background-color: #fcc133;
+    margin-top: -75px;
+    margin-bottom: -60px;
+}
+.section_one .container .right p{
+    padding-top: 100px;
+    line-height: 2.5;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+}
+/* section_two */
+.section_two{
+    background-image: url("../images/4.jpeg");
+    background-size: cover;
+    color: white;
+}
+.section_two .content{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-left: 90px;
+    width: 450px;
+    text-align: center;
+    padding-top: 70px;
+}
+.section_two .content .top{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 6px solid #fcc133;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 2.6;
+    border-radius: 15px;
+
+}
+.section_two .content .top h3,
+.section_two .content .bottom h3{
+    font-weight: bold;
+}
+.section_two .content .top a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+.section_two .content .bottom{
+    background-color: #fcc133;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 6px solid #fcc133;
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 2.6;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.section_two .content .bottom a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 24px;
+}
+
+/* end section_two */
+/* start section_three */
+.section_three{
+    background-color: #292930;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 35px;
+}
+.section_three .container .content .left h3{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.section_three .container .content .left ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.section_three .container .content .left ul li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#fcc133;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.section_three .content .left img{
+    width: 15px;
+}
+.section_three .container .content .right{
+    display: flex;
+    flex-direction: row;
+    gap: 104px;
+    padding-top: 25px;
+    text-align: center;
+    padding-left: 50px;
+}
+.section_three .container .content .right .left img{
+    width: 57px;
+    transition: 0.6s;
+}
+.section_three .container .content .right .left img:hover{
+    transform: rotate(360deg);
+}
+.section_three .container .content .right img{
+    width: 70px;
+    padding-bottom: 10px;
+    transition: 0.6s;
+}
+.section_three .container .content .right img:hover{
+    transform: rotate(360deg);
+}
+.section_three .container .content .right h4{
+    color: #fcc133;
+}
+/* end section_three */
+/* start fourth_section */
+.fourth_section {
+    background-image: url("../images/5.jpeg");
+    background-size: cover;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.fourth_section .content{
+    padding-top: 570px;
+    margin-left: auto;
+    width: 45%;
+}
+.fourth_section .content h2{
+    font-size: 35px;
+    font-weight: 800;
+}
+.fourth_section .content p{
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0;
+}
+/* end fourth_section */
+/* start reviews */
+.reviews .content{
+    display: grid;
+    grid-template-columns: repeat(2 , 50%);
+    background-color: #292930;
+    color: white;
+    overflow: hidden;
+    height: 85vh;
+}
+.reviews .content .left img{
+    width: 100%;
+}
+.reviews .content .right{
+    padding-top: 140px;
+}
+.reviews .content .right h2{
+    font-size: 50px;
+    color: #fcc133;
+}
+.reviews .content .right img{
+    width: 30px;
+}
+.reviews .content .right p{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.8;
+    margin-top: 12px;
+}
+.reviews .content .right h4{
+    font-size: 20px;
+}
+/* end reviews */
+/* start contact */
+.contact{
+    background-color: #292930;
+    color: white;
+}
+
+.contact .content{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.contact .content .first{
+    font-size: 20px;
+}
+.contact .content .first p{
+    color: #fcc133;
+}
+.contact .content .second img{
+    width: 300px;
+}
+.contact .content .third{
+    background-color: #fcc133;
+    color: black;
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-left: 24px;
+    padding-bottom: 25px;
+}
+.contact .content .third h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.contact .content .third p{
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+/* end contact */
+/* start footer */
+.footer {
+    background-color: #fcc133;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+
+}
